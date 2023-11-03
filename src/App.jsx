@@ -13,13 +13,6 @@ function App() {
   return (
     <>
       <Header/>
-      <Hero/>
-      <Project/>
-      <div className="flex space-x-4 pb-3">
-      <Service services={service}/>
-      <About/>
-      </div>
-     
       <Footer/>
 
     </>
